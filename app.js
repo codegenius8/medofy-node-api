@@ -25,7 +25,7 @@ app.use(express.static(path.join(__dirname, "public/uploads")));
 app.use("/", express.static("public"));
 
 
-//database connection
+//database connection connect
 // mongoose.Promise = global.Promise;
 // const PASSWORD = encodeURIComponent("");
 // const database = "AMA_project";
@@ -40,7 +40,7 @@ mongoose
   .then(() => console.log("DB Connected"))
   .catch(() => console.log("DB Not conected"));
 
-//User Routes
+//User Routes 
 const User = require("./src/routes/Patient/auth")
 const userSpecialist = require("./src/routes/Patient/doctorSpecialist")
 const review = require("./src/routes/Patient/review")
