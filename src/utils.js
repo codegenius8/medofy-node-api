@@ -17,7 +17,7 @@ function createResult(error, message, data, count) {
     }
     return result;
 }
-
+// errors
 function createError(message) {
     return createResult(message, message);
 }
