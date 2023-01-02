@@ -10,7 +10,7 @@ const {
 } = require("../../../validators/auth");
 const { registerDoctor, doctorAvailablity } = require("../../controller/Admin/registerDoctor");
 
-
+//ragisterHandler
 router.post(
     "/admin/registerDoctor",
     upload.single("image"),
