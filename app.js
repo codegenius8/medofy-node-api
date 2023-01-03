@@ -25,7 +25,7 @@ app.use(express.static(path.join(__dirname, "public/uploads")));
 app.use("/", express.static("public"));
 
 
-//database connection connect
+
 // mongoose.Promise = global.Promise;
 // const PASSWORD = encodeURIComponent("");
 // const database = "AMA_project";
